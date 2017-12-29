@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/logs")
-public class LogsController {
+public class LogsController BaseController<LogsServiceImpl, Logs> {
 
 }
